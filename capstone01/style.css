@@ -22,9 +22,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 #contact {
-    background-image: url('./images/bg2.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: #222222;
     font-weight: bold;
 }
 .button {
@@ -75,7 +73,12 @@ form > h1 {
     background-color: transparent !important;
     border: none !important;
     background: transparent;
-  }
+}
+#experience {
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    background-color: #303030;
+}
 @media only screen and (min-width: 1024px) {
     #me {
         width: 10%;
@@ -110,4 +113,7 @@ form > h1 {
 }
 .wrap ~ p {
     font-size: 20px;
+}
+h5 ~ h7 {
+    font-style: italic;
 }
