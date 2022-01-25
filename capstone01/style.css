@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.resize {
+    width: 50%;
+    height: auto;
+    border: 5px solid white;
+}
+.img_margin {
+    padding-top: 300px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#contact {
+    background-image: url('./images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: bold;
+}
+.button {
+    background-color: #F7DD01;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+#vincent {
+    font-weight: bolder;
+}
+#about {
+    background-color: #303030;
+}
+.colon {
+    font-size: 500%;
+    color: #00a0d9;
+}
+.school {
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-flex;
+    margin: auto;
+}
+form > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.testimonial {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#testimonial {
+    background-color: #FBFBFD;
+}
+#me {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#me2 {
+    border-radius: 50%;
+}
+.card {
+    background-color: transparent !important;
+    border: none !important;
+    background: transparent;
+  }
+@media only screen and (min-width: 1024px) {
+    #me {
+        width: 10%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #social {
+        width: 5%;
+    }
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+.wrap h1 {
+    text-transform: capitalize;
+    border-right: 3px solid white;
+    animation:typewriter 7s steps(11) infinite, caret 0.7s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes caret {
+    0%, 100%{border-color: transparent;}
+    50%{border-color: white;}
+}
+@keyframes typewriter {
+    0%{ width: 0ch; }
+    30%{ width: 12ch; }
+    80%{ width: 12ch; }
+    90%{ width: 0ch; }
+    100%{ width: 0ch; }
+}
+.wrap ~ p {
+    font-size: 20px;
+}
