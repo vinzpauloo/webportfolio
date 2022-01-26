@@ -18,7 +18,7 @@
 
         <title>My Portfolio</title>         
     </head>
-    <body class="text-center bg-secondary">
+    <body class="container-fluid text-center bg-secondary">
 
         <!-- Navigation Bar Starts -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -56,10 +56,11 @@
             <div class="img_margin">
                 <img id="me" src="./images/me2.png" class="img-fluid img-responsive">
             </div>
-            
-            <div class="wrap">
+            <!-- Typewriter Effect -->
+            <div class="typewriter">
                 <h1 class="text-white mt-5">i'm vincent</h1>
             </div>
+            <!-- Typewriter Effect Ends -->
             <p class="text-white">Software Engineer</p>
             
             <!-- Social Media Icons -->
@@ -167,7 +168,7 @@
         <!-- Skills Starts -->
         <div class="card-deck bg-light p-5" id="skills">
             <!-- <h3>Front-end</h3> -->
-            <div class="card mb-5 p-3">
+            <div class="card mb-5">
                 <div class="card-body">
                     <img width="150" src="images/frontend.png">
                 </div>
@@ -182,7 +183,7 @@
                 </div>
             </div>
             <!-- <h3>Back-end</h3> -->
-            <div class="card mb-5 p-3">
+            <div class="card mb-5 p-1">
                 <div class="card-body">
                     <img width="150" src="images/backend.png">
                 </div>
@@ -195,7 +196,7 @@
                 </div>
             </div>
             <!-- <h3>Tools</h3> -->
-            <div class="card mb-5 p-3">
+            <div class="card mb-5 p-1">
                 <div class="card-body">
                     <img width="200" src="images/tools.png">
                 </div>
@@ -230,7 +231,7 @@
                         </div>
                     </div>
                     <div class="p-5 col-12 col-md-6 order-1 order-md-2 order-lg-1 order-xl-2">
-                        <img src="./images/shopee.png" class="img-fluid" />
+                        <a href="./images/shopee.png"><img src="./images/shopee.png" class="img-fluid" /></a>
                     </div>
                 </div>
             </div>
@@ -251,8 +252,7 @@
                         </div>
                     </div>
                     <div class="p-5 col-12 col-md-6 order-1 order-md-1 order-lg-2 order-xl-1">
-                        <img src="./images/earnin.png"
-                            class="img-fluid" />
+                        <a href="./images/earnin.png"><img src="./images/earnin.png" class="img-fluid" /></a>
                     </div>
                 </div>
             </div>
@@ -271,7 +271,7 @@
                         </div>
                     </div>
                     <div class="p-5 col-12 col-md-6 order-1 order-md-2 order-lg-1 order-xl-2">
-                        <img src="./images/ideal.png" class="img-fluid" />
+                        <a href="./images/ideal.png"><img src="./images/ideal.png" class="img-fluid" /></a>
                     </div>
                 </div>
             </div>
@@ -287,7 +287,7 @@
 
 
         <!-- Contact Me Starts -->
-        <div class="bg-light min-vh-75 text-white p-5">
+        <div class="d-none d-md-block bg-light min-vh-75 text-white p-5">
             <div class="d-none d-md-block">
                 <form class="p-5" id="contact">
                     <h1>CONTACT ME</h1>
